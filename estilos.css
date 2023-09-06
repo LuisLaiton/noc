@@ -1,0 +1,27 @@
+.inicio {
+    background-color: #023047;
+}
+
+.login {
+    max-width: 500px;
+}
+
+.color-asignacion {
+    background-color: #0077B6;
+}
+
+.color-reactivacion {
+    background-color: #4CB944;
+}
+
+.color-progreso {
+    background-color: #EDB458;
+}
+
+.color-vencer {
+    background-color: #FB4D3D;
+}
+
+.color-espera {
+    background-color: #C2C2C2;
+}

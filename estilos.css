@@ -25,3 +25,9 @@
 .color-espera {
     background-color: #C2C2C2;
 }
+
+#miGrafica{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}

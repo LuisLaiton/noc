@@ -56,7 +56,7 @@ function compararDatos() {
       });
 
       if (usuarioEncontrado) {
-        window.location.href = "paginaPrincipal.html"
+        window.location.href = "HTML/paginaPrincipal.html"
       } else {
         var divElement = document.createElement("div");
         divElement.className = "alert alert-danger";

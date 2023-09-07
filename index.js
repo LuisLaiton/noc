@@ -5,7 +5,7 @@ var ctx = document.getElementById('miGrafica').getContext('2d');
 var data = {
   labels: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto'],
   datasets: [{
-    label: 'Tikets Mensuales',
+    label: 'Tickets Mensuales',
     data: [12, 19, 15, 17, 20, 14, 18, 19],
     backgroundColor: [
       'rgba(255, 99, 132, 0.2)',

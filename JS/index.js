@@ -1,7 +1,6 @@
-// Obtén una referencia al elemento canvas
+// GRAFICA
 var ctx = document.getElementById('miGrafica').getContext('2d');
 
-// Define los datos de tu gráfica
 var data = {
   labels: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto'],
   datasets: [{
@@ -25,7 +24,6 @@ var data = {
   }]
 };
 
-// Configura y dibuja la gráfica
 var myChart = new Chart(ctx, {
   type: 'bar',
   data: data,
@@ -38,10 +36,7 @@ var myChart = new Chart(ctx, {
   }
 });
 
-
-
-
-
+// LOGIN
 function compararDatos() {
   const getData = async () => {
     try {
@@ -73,4 +68,30 @@ function compararDatos() {
     }
   }
   getData()
+}
+
+
+// MENSAJES
+
+function mensaje(estado) {
+  switch (estado) {
+    case 1:
+      alert("Este caso ha sido asignado a tu perfil y ha sido puesto 'En Progreso'")
+      break;
+    case 2:
+      alert("Este caso ha sido puesto 'En Progreso'")
+      break;
+    case 3:
+      alert("Este caso ha sido puesto 'En Espera'")
+      break;
+    case 4:
+      alert("Este caso ha sido puesto 'En Espera'")
+      break;
+    case 5:
+      alert("Este caso ha sido puesto 'En Progreso'")
+      break;
+    default:
+      window.location.href = "HTML/paginaPrincipal.html"
+      break;
+  }
 }
